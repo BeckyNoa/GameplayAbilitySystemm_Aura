@@ -1353,3 +1353,171 @@ LogConfig: Set CVar [[r.Nanite.Streaming.AsyncCompute:0	; Temporary workaround f
 [2025.11.30-18.42.37:940][ 11]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 5.541502
 [2025.11.30-18.42.37:942][ 11]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1416957435
 [2025.11.30-18.42.37:942][ 11]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5.541502, Update Interval: 334.776459
+[2025.11.30-18.44.01:328][487]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.11.30-18.44.08:028][628]LogStreaming: Display: FlushAsyncLoading(338): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.30-18.44.08:059][628]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Assets/Characters/Aura/SKM_Aura.SKM_Aura
+[2025.11.30-18.44.08:076][628]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Aura) ...
+[2025.11.30-18.44.08:277][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Body_BaseColor.Character_low_Body_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.08:356][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_ArmGuard_Normal.Character_low_ArmGuard_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1234.499988 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.08:459][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_ArmGuard_OcclusionRoughnessMetallic.Character_low_ArmGuard_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.08:464][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Belt_OcclusionRoughnessMetallic.Character_low_Belt_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.08:469][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Belt_BaseColor.Character_low_Belt_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.08:475][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_ArmGuard_BaseColor.Character_low_ArmGuard_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.08:539][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Belt_Normal.Character_low_Belt_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1234.499988 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.08:894][628]LogSkeletalMesh: Building Skeletal Mesh SKM_Aura...
+[2025.11.30-18.44.09:044][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Body_OcclusionRoughnessMetallic.Character_low_Body_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.09:109][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Body_Normal.Character_low_Body_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1234.499988 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.09:158][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Eyes_BaseColor.Character_low_Eyes_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.09:368][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Eyes_Normal.Character_low_Eyes_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1234.499988 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.09:440][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Eyes_OcclusionRoughnessMetallic.Character_low_Eyes_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.09:502][628]LogSkeletalMesh: Built Skeletal Mesh [0.61s] /Game/Assets/Characters/Aura/SKM_Aura.SKM_Aura
+[2025.11.30-18.44.09:510][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Hair_BaseColor.Character_low_Hair_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.09:522][628]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.11.30-18.44.09:552][628]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2025.11.30-18.44.09:579][628]LogTexture: Display: Waiting for textures to be ready 0/1 (/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1) ...
+[2025.11.30-18.44.09:619][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.11.30-18.44.09:636][628]LogTexture: Display: Waiting for textures to be ready 12/18 (/Game/Assets/Characters/Aura/Materials/Character_low_Tunic_Normal) ...
+[2025.11.30-18.44.09:689][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Hair_Normal.Character_low_Hair_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1234.499988 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.09:736][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Hair_OcclusionRoughnessMetallic.Character_low_Hair_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.09:813][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Tunic_OcclusionRoughnessMetallic.Character_low_Tunic_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.09:838][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Tunic_Normal.Character_low_Tunic_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1234.499988 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.09:846][628]LogTexture: Display: Building textures: /Game/Assets/Characters/Aura/Materials/Character_low_Tunic_BaseColor.Character_low_Tunic_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.30-18.44.10:475][628]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.11.30-18.44.11:539][691]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.11.30-18.44.12:156][736]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.11.30-18.44.12:174][737]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.11.30-18.44.12:846][813]LogSlate: Window 'SKM_Aura' being destroyed
+[2025.11.30-18.44.27:923][543]LogDerivedDataCache: C:/Users/wjdgn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: ================================================
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Total job queries 192, among them cache hits 50 (26.04%), DDC hits 130 (67.71%), Duplicates 10 (5.21%)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Tracking 132 distinct input hashes that result in 124 distinct outputs (93.94%)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: RAM used: 109.81 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Shaders Compiled: 2
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Average time worker was idle: 0.11 s
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.08 s
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Job execution time: average 0.61 s, max 0.92 s
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Job life time (pending + execution): average 0.68 s, max 1.00
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Shader code size: average 9.809 KiB, min 9.809 KiB, max 9.809 KiB
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.35 s
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Average processing rate: 1.48 jobs/sec
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Total thread time: 0.551 s
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Total thread preprocess time: 2.253 s
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Percentage time preprocessing: 408.81%
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Effective parallelization: 0.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.28 sec, max 0.29 sec, min 0.26 sec)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display:                          TVoxelizeVolumeGS<VMode_Object_Box> (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 100.00% of total time (compiled    2 times, average 0.28 sec, max 0.29 sec, min 0.26 sec)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display:                          TVoxelizeVolumeGS<VMode_Object_Box> - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: === Material stats ===
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Materials Translated:    134
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Material Translation Only: 0.02 s (37%)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: Material Cache Hits: 18 (13%)
+[2025.11.30-18.45.34:403][ 85]LogShaderCompilers: Display: ================================================
+[2025.11.30-18.48.12:812][281]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 340.747070
+[2025.11.30-18.48.13:812][284]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.30-18.48.13:812][284]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 341.413940, Update Interval: 319.966431
+[2025.11.30-18.53.36:195][251]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 664.129333
+[2025.11.30-18.53.37:196][254]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.30-18.53.37:196][254]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 664.796326, Update Interval: 335.618774
+[2025.11.30-18.59.17:423][275]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1005.513977
+[2025.11.30-18.59.18:428][278]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.30-18.59.18:428][278]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1006.180969, Update Interval: 317.018341
+[2025.11.30-19.04.23:561][369]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.11.30-19.04.48:968][171]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1337.057495
+[2025.11.30-19.04.49:967][174]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.30-19.04.49:967][174]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1337.722778, Update Interval: 336.688141
+[2025.11.30-19.05.04:387][367]LogSlate: Took 0.006063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.11.30-19.05.46:600][425]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/wjdgn/Documents/GameplayAbilitySystemm_Aura/Aura.uproject" -game -rocket -progress
+[2025.11.30-19.05.46:718][425]Using bundled DotNet SDK version: 8.0.300
+[2025.11.30-19.05.46:718][425]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/wjdgn/Documents/GameplayAbilitySystemm_Aura/Aura.uproject" -game -rocket -progress
+[2025.11.30-19.05.47:120][425]Log file: C:\Users\wjdgn\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.11.30-19.05.48:629][425]
+[2025.11.30-19.05.48:629][425]Generating VisualStudio project files:
+[2025.11.30-19.05.48:629][425]Discovering modules, targets and source code for project...
+[2025.11.30-19.05.51:746][425]Binding IntelliSense data...
+[2025.11.30-19.06.09:054][425]Binding IntelliSense data... 50%
+[2025.11.30-19.06.09:056][425]Binding IntelliSense data... 100%
+[2025.11.30-19.06.09:056][425]Writing project files...
+[2025.11.30-19.06.10:767][425]Writing project files... 100%
+[2025.11.30-19.06.10:767][425]
+[2025.11.30-19.06.10:767][425]Generating QueryTargets data for editor...
+[2025.11.30-19.06.10:767][425]Total execution time: 24.00 seconds
+[2025.11.30-19.06.21:724][425]LogSlate: Window 'Message' being destroyed
+[2025.11.30-19.06.21:733][425]Message dialog closed, result: Ok, title: Message, text: Project now includes sources, please close the editor and build from your IDE.
+[2025.11.30-19.06.23:000][425]LogSlate: Window 'Message' being destroyed
+[2025.11.30-19.06.23:012][425]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'AuraCharacterBase', however you must recompile the 'Aura' module before it will appear in the Content Browser.
+
+Would you like to edit the code now?
+[2025.11.30-19.06.23:119][425]LogSlate: Window 'Add C++ Class' being destroyed
+[2025.11.30-19.06.25:338][432]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.11.30-19.06.25:343][432]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.11.30-19.10.44:014][145]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1692.101562
+[2025.11.30-19.10.45:014][148]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.30-19.10.45:014][148]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1692.768921, Update Interval: 356.198608
+[2025.11.30-19.17.23:449][343]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2091.482666
+[2025.11.30-19.17.24:450][346]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.30-19.17.24:450][346]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2092.149170, Update Interval: 305.004425
+[2025.11.30-19.23.14:653][470]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2442.606201
+[2025.11.30-19.23.15:654][473]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.30-19.23.15:654][473]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2443.273438, Update Interval: 301.025421
+[2025.11.30-19.29.02:776][514]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2790.652588
+[2025.11.30-19.29.03:776][517]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.30-19.29.03:776][517]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2791.319092, Update Interval: 335.616943
+[2025.11.30-19.32.23:816][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.11.30-19.32.23:838][228]LogStall: Shutdown...
+[2025.11.30-19.32.23:839][228]LogStall: Shutdown complete.
+[2025.11.30-19.32.23:942][228]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.30-19.32.23:942][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.30-19.32.23:978][228]LogSlate: Window 'Aura - Unreal Editor' being destroyed
+[2025.11.30-19.32.24:065][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.11.30-19.32.24:069][229]Cmd: QUIT_EDITOR
+[2025.11.30-19.32.24:069][229]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.11.30-19.32.24:074][229]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.11.30-19.32.24:074][229]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.11.30-19.32.24:074][229]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.11.30-19.32.24:075][229]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.30-19.32.24:075][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.30-19.32.24:081][229]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.11.30-19.32.24:085][229]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.11.30-19.32.24:088][229]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.11.30-19.32.24:088][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.30-19.32.24:088][229]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.11.30-19.32.24:088][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.30-19.32.24:088][229]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.11.30-19.32.24:088][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.30-19.32.24:089][229]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.11.30-19.32.24:089][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.30-19.32.24:089][229]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.11.30-19.32.24:089][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.30-19.32.24:092][229]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.11.30-19.32.24:102][229]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.11.30-19.32.24:102][229]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.11.30-19.32.24:102][229]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.11.30-19.32.24:105][229]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.11.30-19.32.24:105][229]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.11.30-19.32.24:105][229]LogAudio: Display: Audio Device unregistered from world 'StartupMap'.
+[2025.11.30-19.32.24:106][229]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.11.30-19.32.24:107][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.11.30-19.32.24:109][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.11.30-19.32.24:118][229]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.11.30-19.32.24:118][229]LogAudio: Display: Audio Device Manager Shutdown
+[2025.11.30-19.32.24:120][229]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.11.30-19.32.24:123][229]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.11.30-19.32.24:123][229]LogExit: Preparing to exit.
+[2025.11.30-19.32.24:151][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
