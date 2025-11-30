@@ -4,6 +4,13 @@ Intermediate
 Saved
 Build
 
+/.vs
+/.vscode
+/Content
+/DerivedDataCache
+/Intermediate
+/Saved
+
 .vscode
 .vs
 *.VC.db
